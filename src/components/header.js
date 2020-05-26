@@ -1,42 +1,45 @@
-import { Link } from "gatsby"
-import PropTypes from "prop-types"
-import React from "react"
+import Image from "../components/image";
 
-const Header = ({ siteTitle }) => (
-  <header
-    style={{
-      background: `rebeccapurple`,
-      marginBottom: `1.45rem`,
-    }}
-  >
-    <div
-      style={{
-        margin: `0 auto`,
-        maxWidth: 960,
-        padding: `1.45rem 1.0875rem`,
-      }}
-    >
-      <h1 style={{ margin: 0 }}>
-        <Link
-          to="/"
-          style={{
-            color: `white`,
-            textDecoration: `none`,
-          }}
-        >
-          {siteTitle}
-        </Link>
-      </h1>
-    </div>
-  </header>
-)
+// import React from "react";
 
-Header.propTypes = {
-  siteTitle: PropTypes.string,
-}
+import React from "react";
+import { Link } from "gatsby";
+import { Row, Col, Button, Container } from "reactstrap";
 
-Header.defaultProps = {
-  siteTitle: ``,
-}
+const Header = () => {
+  return (
+    <Container className="py-1">
+      <Row>
+        <Col className="col-lg-3 col-sm-12 text-center pr-0">
+          <Image />
+        </Col>
+        <Col className="col-lg-4 col-sm-12 mt-3">
+          <h2>Uche Mukolo</h2>
+          <h4>Software Developer</h4>
+          <Link to="">
+            <i className="fab fa-github fa-2x mr-3"></i>
+          </Link>
+          <Link to="">
+            <i className="fab fa-linkedin-in fa-2x mr-3"></i>
+          </Link>
+          <Link to="">
+            <i className="fab fa-twitter fa-2x mr-3"></i>
+          </Link>
+          <Link to="">
+            <i className="fab fa-instagram fa-2x mr-3"></i>
+          </Link>
+          <Link to="">
+            <i className="fab fa-facebook fa-2x"></i>
+          </Link>
+        </Col>
+        <Col className="mt-5 contact-button">
+          <a href="mailto:uchek7@gmail.com">
+            <Button color="default">Contact Me</Button>{" "}
+          </a>
+        </Col>
+      </Row>
+    </Container>
+  );
+};
 
-export default Header
+export default Header;

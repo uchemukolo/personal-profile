@@ -1,0 +1,97 @@
+/* .btn {
+  border-radius: 0;
+} */
+.btn-default,
+.btn-default:active,
+.btn-default:visited {
+  background-color: #e9e2e8;
+  border-color: #e9e2e8;
+}
+
+.btn-default:hover {
+  background-color: #e9e2e8;
+  border-color: #e9e2e8;
+  color: #347c9b;
+  transition: all 1s ease;
+  -webkit-transition: all 1s ease;
+  -moz-transition: all 1s ease;
+  -o-transition: all 1s ease;
+  -ms-transition: all 1s ease;
+}
+.header {
+  display: flex;
+  background-color: #347c9b !important;
+  color: #e9e2e8 !important;
+  margin-top: 15px;
+}
+.text-color-logo {
+  color: #e9e2e8 !important;
+}
+.text-color {
+  color: #e9e2e8 !important;
+  padding-left: 20px;
+  padding-top: 10px;
+}
+a {
+  color: #e9e2e8 !important;
+  text-decoration: none !important;
+  background-color: transparent !important;
+}
+.rounded-circle {
+  padding: 0 !important;
+}
+.contact-button {
+  text-align: right;
+}
+.no-link-color {
+  padding-left: 22px;
+  padding-bottom: 5px;
+}
+.link-color {
+  padding-left: 14px;
+  color: #3ab9d8;
+  padding-bottom: 5px;
+}
+.list-unstyled {
+  padding-left: 0;
+  list-style: none;
+  margin-left: 0;
+}
+.card-title {
+  color: #242e2d;
+}
+.text-center {
+  color: #242e2d;
+  text-align: left !important;
+  font-size: 14px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+.progress {
+  display: flex;
+  height: 10px !important;
+  overflow: hidden;
+  line-height: 0;
+  font-size: 0.75rem;
+  background-color: #e9e2e8;
+  border-radius: 0.25rem;
+}
+.progress-bar {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  overflow: hidden;
+  color: #fff;
+  text-align: center;
+  white-space: nowrap;
+  background-color: #3ab9d8 !important;
+  transition: width 0.6s ease;
+}
+
+@media (min-width: 768px) {
+  .navbar-expand-md .navbar-collapse {
+    display: flex !important;
+    flex-basis: auto;
+    justify-content: flex-end;
+  }
+}
