@@ -12,6 +12,7 @@ import {
   CardBody,
   Progress,
 } from "reactstrap";
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 
 const Content = props => {
   return (
@@ -86,17 +87,17 @@ const Content = props => {
               <CardText>
                 <ul className="list-unstyled">
                   <li>
-                    <i className="fas fa-map-marker-alt fa-md"></i>
+                    <FontAwesomeIcon icon="map-marker-alt" className="fa-md" />
                     <span className="no-link-color">Lagos, NG</span>
                   </li>
                   <li>
-                    <i className="fas fa-envelope fa-md"></i>
+                    <FontAwesomeIcon icon="envelope" className=" fa-md" />
                     <Link to="#">
                       <span className="link-color"> uchek7@gmail.com</span>
                     </Link>
                   </li>
                   <li>
-                    <i className="fas fa-link fa-md"></i>
+                    <FontAwesomeIcon icon="link" className=" fa-md" />
                     <Link to="#">
                       <span className="link-color"> andela.com</span>
                     </Link>

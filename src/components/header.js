@@ -2,6 +2,7 @@ import React from "react";
 import { Link } from "gatsby";
 import { Row, Col, Button, Container } from "reactstrap";
 import Image from "../components/image";
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 
 const Header = () => {
   return (
@@ -14,19 +15,31 @@ const Header = () => {
           <h2>Uche Mukolo</h2>
           <h4>Software Developer</h4>
           <Link to="">
-            <i className="fab fa-github fa-2x mr-3"></i>
+            <FontAwesomeIcon icon={["fab", "github"]} className=" fa-2x mr-3" />
           </Link>
           <Link to="">
-            <i className="fab fa-linkedin-in fa-2x mr-3"></i>
+            <FontAwesomeIcon
+              icon={["fab", "linkedin-in"]}
+              className=" fa-2x mr-3"
+            />
           </Link>
           <Link to="">
-            <i className="fab fa-twitter fa-2x mr-3"></i>
+            <FontAwesomeIcon
+              icon={["fab", "twitter"]}
+              className=" fa-2x mr-3"
+            />
           </Link>
           <Link to="">
-            <i className="fab fa-instagram fa-2x mr-3"></i>
+            <FontAwesomeIcon
+              icon={["fab", "instagram"]}
+              className=" fa-2x mr-3"
+            />
           </Link>
           <Link to="">
-            <i className="fab fa-facebook fa-2x"></i>
+            <FontAwesomeIcon
+              icon={["fab", "facebook"]}
+              className=" fa-2x mr-3"
+            />
           </Link>
         </Col>
         <Col className="mt-5 contact-button">
