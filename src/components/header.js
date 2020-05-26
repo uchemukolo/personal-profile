@@ -1,10 +1,7 @@
-import Image from "../components/image";
-
-// import React from "react";
-
 import React from "react";
 import { Link } from "gatsby";
 import { Row, Col, Button, Container } from "reactstrap";
+import Image from "../components/image";
 
 const Header = () => {
   return (

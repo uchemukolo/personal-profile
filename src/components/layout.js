@@ -8,7 +8,7 @@
 import React from "react";
 import PropTypes from "prop-types";
 import { useStaticQuery, graphql } from "gatsby";
-import { Container, Row, Col } from "reactstrap";
+import { Container } from "reactstrap";
 
 import Header from "./header";
 import Content from "./content";
