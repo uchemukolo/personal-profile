@@ -18,13 +18,13 @@ module.exports = {
     {
       resolve: `gatsby-plugin-manifest`,
       options: {
-        name: `gatsby-starter-default`,
-        short_name: `starter`,
+        name: `Uche Mukolo`,
+        short_name: `uche`,
         start_url: `/`,
         background_color: `green`,
         theme_color: `#663399`,
         display: `minimal-ui`,
-        icon: ``, // This path is relative to the root of the site.
+        // icon: ``, // This path is relative to the root of the site.
       },
     },
     // this (optional) plugin enables Progressive Web App + Offline functionality
