@@ -1,6 +1,6 @@
 # My Resume/Portfolio
 
-## Website we build with
+## Website built with
 
 <p>
   <a href="https://www.gatsbyjs.org">
