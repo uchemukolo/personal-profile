@@ -1,6 +1,6 @@
-## My Resume/Portfolio
+# My Resume/Portfolio
 
-# Website we build with
+## Website we build with
 
 <p>
   <a href="https://www.gatsbyjs.org">
@@ -9,6 +9,6 @@
 </p>
 <h3>
   GatsbyJs
-</h1>
+</h3>
 
 [![View Portfolio on Netlify](https://www.netlify.com/img/deploy/button.svg)](https://app.netlify.com/start/deploy?repository=https://github.com/gatsbyjs/gatsby-starter-default)
