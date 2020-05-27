@@ -17,7 +17,7 @@ import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 const Content = props => {
   return (
     <Row className="my-3" style={{ display: "flex" }}>
-      <Col className="col-lg-7 ml-4 mb-3">
+      <Col className="col-lg-7 col-sm-12 ml-4 mb-3">
         <div className="shadow-sm">
           <Card>
             <CardBody>
@@ -80,7 +80,7 @@ const Content = props => {
           </Card>
         </div>
       </Col>
-      <Col className="col-lg-4 ml-4 mb-3">
+      <Col className="col-lg-4 col-sm-12 ml-4 mb-3">
         <div div className="shadow-sm">
           <Card>
             <CardBody>
